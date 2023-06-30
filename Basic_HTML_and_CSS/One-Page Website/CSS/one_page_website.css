@@ -1,0 +1,63 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: aquamarine;
+}
+
+
+/* ----------------------------------------
+                Contact  STYLES
+------------------------------------------*/
+
+h1, h2 {
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 8px auto;
+    background-color: rgba(81, 3, 170, 0.3);
+    box-shadow: 2px 2px 10px 0 rgba(47, 0, 100, 0.3);
+    border-style: groove;
+    border-color: #460430;
+}
+
+
+#contact {
+    font-size: 15px;
+    text-align: center;
+    color: #58a2ec;
+    padding: 2% 1% 2%  7%;
+    width: 85%;
+    border-top: 1px solid #090b0d;
+    border-right: 2px solid #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 1px solid #090b0d;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: #460430;
+    box-shadow: inset 0px 3px 0px 0px rgb(250, 13, 218);
+    font-family: 'Raleway', sans-serif ;
+}
+
+/* ---------------RSVP STYLES----------------*/
+
+.rsvp {
+    color: #3a06be;
+    text-align: center;
+}
+
+input {
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    padding: auto;
+    border-width: .2em;
+}
+
+input[type="text"]{
+    width: 150px;
+    margin: 5px;
+    border: 2px solid lightseagreen;
+    border-radius: 15%;
+}

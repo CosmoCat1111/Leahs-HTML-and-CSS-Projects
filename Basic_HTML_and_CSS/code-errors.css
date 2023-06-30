@@ -1,0 +1,26 @@
+/*--------------------------------
+        GENERIC STYLES 
+--------------------------------*/
+
+body {
+    color: darkblue;
+    background-color:lightblue;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: red dotted;
+}
+
+p {
+    text-decoration-line: underline;
+    color: #73108b
+}
+
+h3 {
+    text-align: center;
+}
+
+
