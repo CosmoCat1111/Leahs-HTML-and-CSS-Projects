@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The Puppy Station and Beyond!</title>
+		<link rel="stylesheet" a href="../One-Page Website/CSS/one_page_website.css"></a>
+		<meta charset = "utf-8">
+	</head>
+	<body>
+		<!-- NAV -->
+		<div>
+			<div>
+				<ul>
+					<a href="#Home" id="link"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>RESERVATIONS</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- END NAV -->
+
+		<!-- HOME -->
+		<div id="home">
+			<div>
+				<div>
+					<span>The Puppy Station</span>
+				</div>
+			</div>
+		</div>
+		<!-- END HOME -->
+
+		<!-- GALLERY -->
+		<section>
+			<div id="gallery">
+				<h1>Gallery</h1>
+				</div>
+
+					<!-- PHOTO CONTAINER 1 -->
+					<div>
+						<div>	
+							<img src="./images2/thumb2/puppy_1.jfif" alt="Golden lab puppy watching on the grass">
+							<div>
+								<p>Ever want a puppy, they're so lovable.</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 1 -->
+
+<!-- PHOTO CONTAINER 2 -->
+					<div>
+						<div>
+							<img src="./images2/thumb2/puppy_2.jfif" alt="A group of golden lab puppies">
+							<div>
+								<p>Ever want a puppy, they're so lovable.</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 2 -->
+
+
+<!-- PHOTO CONTAINER 3 -->
+					<div>
+						<div>
+							<img src="./images2/thumb2/puppy_3.jfif" alt="A group of mixed colored lab puppes">
+							<div>
+								<p>Ever want a puppy, they're so lovable.</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 3 -->
+
+
+<!-- PHOTO CONTAINER 4 -->
+					<div>
+						<div>
+							<img src="./images2/thumb2/puppy_4.jfif" alt="A portrait of a golden lab puppy on grass with flowers in background">
+							<div>
+								<p>Ever want a puppy, they're so lovable.</p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 4 -->
+
+				</div>
+			</div>
+		</section>
+		<!-- END GALLERY -->
+		
+		<!-- light box  -->
+
+		<h2 style="text-align:center">Lightbox</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="./images2/thumb2/puppy_11.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images2/thumb2/puppy_22.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images2/thumb2/puppy_33.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images2/thumb2/puppy_44.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="./images2/thumb2/puppy_11.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="./images2/thumb2/puppy_22.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="./images2/thumb2/puppy_33.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="./images2/thumb2/puppy_44.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="./images2/thumb2/puppy_1.jfif" style="width:100%" onclick="currentSlide(1)" alt="Puppy being curious!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./images2/thumb2/puppy_2.jfif" style="width:100%" onclick="currentSlide(2)" alt="Puppy gang looking cuddly!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./images2/thumb2/puppy_3.jfif" style="width:100%" onclick="currentSlide(3)" alt="Puppies of all colors!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./images2/thumb2/puppy_4.jfif" style="width:100%" onclick="currentSlide(4)" alt="Puppy in flower field!">
+    </div>
+  </div>
+</div>
+<!-- light box end-->
+
+		<!-- RSVP -->
+		<section>
+		<div id="contact">
+			<div>
+				<h1>Reservations</h1>
+				<div>
+					<h2><span>Your Adventure is just around the world in search of puppies!</span>
+						<br />Reserve your adoption today!
+					</h2>
+					<p>
+						Please provide us with your basic contact information.
+					</p>
+					<div>
+						<form action="" method="post">
+							<input class="rsvp" type="text" value="First Name">
+							<input class="rsvp" type="text" value="Last Name">
+							<input class="rsvp" type="text" value="Email Address">
+							<input class="rsvp" type="text" value="Phone Number">
+							<div class="fors-spacer">
+								<label class="terms">Terms and Conditions</label>
+							</div>
+							<div>
+								<input type="submit" value="Submit">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./JS/one_page_website.js" defer></script>
+	</section>
+	<!-- END RSVP -->
+
+	<!-- FOOTER -->
+	<div>
+	<footer>
+		www.mypuppystationandbeyond.dogs &nbsp|&nbsp; &copy; 2023
+</footer>	
+</div>
+	<!-- END FOOTER -->
+</body>
+</html>
