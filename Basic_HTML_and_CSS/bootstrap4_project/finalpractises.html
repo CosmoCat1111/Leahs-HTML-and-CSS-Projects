@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+body {
+    text-align: center;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter:drop-shadow(8px 8px 10px brown);
+  border-radius: 2em/5em;
+}
+footer {
+  text-align: center;
+  font-weight: bold;
+  padding: 3px;
+  background-color: lightblue;
+  color: white;
+}
+
+table, th, td {
+  border: 1px solid;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  height: 70px;
+  background-color: lightsalmon;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #83063a;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  width: 60px;
+  color: aliceblue;
+  background-color: lightsalmon;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 200px;
+  background-color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h4:hover {
+background-color: yellow;
+}
+
+.outer-container {
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.inner-container {
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+}
+
+.video-overlay {
+    position: center;
+    left: 0px;
+    top: 0px;
+    margin: 10px;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #FFF;
+    background-color: rgba(50, 50, 50, 0.3);
+}
+
+video {
+    width: 50%;
+    height: 50%;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<!--Beginning headers-->
+
+<div class="w-3container">
+    <h2>FIND OUT ABOUT OUR AMAZING PUPPIES HERE!</h2>
+    <div class="w3-bar w3-red">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#" class="w3-bar-item w3-button">Where to Adopt</a>
+  <a href="#" class="w3-bar-item w3-button">Where they come from</a>
+  <a href="#" class="w3-bar-item w3-button">All about you</a>
+    </div>
+</div>
+
+    <div class="main">
+        <p>Find out the latest about all the lovable puppies we have!</p>   
+    </div>
+<!--/Beginning headers-->
+
+ <!--image-->
+  <div class="container">
+    <img src="./choclabpuppy.jpg" alt="Chocolate Lab Puppy" style="width:50%;">
+    <div class="centered">Snuggable</div>
+    <div class="overlay">
+        <div class="text">Super cutie!</div>
+    </div>
+  </div>
+<!--/image-->
+
+
+<!--column about types of dogs-->
+<table>
+
+    <tr>
+      <th>Variations</th>
+      <th>Gender</th>
+      <th>Color Pattern</th>
+    </tr>
+
+    <tr>
+      <td>Short Haired</td>
+      <td>Female</td>
+      <td>Surprise</td>
+    </tr>
+
+    <tr>
+      <td>Long Haired
+      <td>Male</td>
+      <td>Chocolate</td>
+    </tr>
+  </table>
+
+ 
+  <div class="row"> 
+    <div class="column"></div>
+     <div class="outer-container">
+        <div class="inner-container">
+    <div class="video-overlay">Not a snow bunny but a snow doggy!</div>
+    <video width="700" height="240" controls autoplay muted loop>
+        <source src="./labrador_-_19572 (540p).mp4" type="video/mp4">
+     </video>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+<!--/Coloumns about types of dogs-->
+
+  <!--columns about home life-->
+  <h2>We have two options for you!  Which are you looking for...</h2>
+
+<div class="row">
+  <div class="column" style="background-color:aquamarine; color: blue;">
+    <h2>Adoption</h2>
+    <p>All these amazing puppies need a loving home, we promise to vet every potential home for safety and fun, if the families are appropriate and if the environment is safe.</p>
+  </div>
+  <div class="column" style="background-color:aquamarine; color:blue;">
+    <h2>Foster temperarily</h2>
+    <p>Along with all the same vetting process for Adoption, we look at the same for fostering, however we do a very thorough one to start, and then checkups every alloted time period.</p>
+  </div>
+</div>
+<!--/columns about home life-->
+
+
+<!--footer-->
+<footer>
+    <h4>Author: CosmoCat1111</h4>
+    <h4><a href="mailto:leahlisberg@gmail.com">leahlisberg@gmail.com</a></h4>
+</footer>
+<!--/footer-->
+</body>
+</html>
